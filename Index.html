@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresos/Egresos</title>
+</head>
+<body>
+    <p>¿Qué quieres hacer hoy?</p>
+    <p>Agregar un ingreso
+    <input type="number" id="respuesta_ingreso" placeholder="Ingresa el monto" />
+    <input type="button" value="Enviar ingreso" id= "boton_ingreso" /><br>
+    Agrega una descripción <input type="text" id= "descripcion_ingreso" placeholder="p. ej., pago" /></p>
+    <div id="message1" style="color: green;"></div>
+
+    <button id="mostrar_ingresos">Mostrar todos los ingresos</button>
+    <div id="incomes_list"></div>
+    
+    <p>Agregar un gasto
+    <input type="number" id="respuesta_gasto" placeholder="Ingresa el monto" />
+    <input type="button" value="Enviar gasto" id= "boton_gasto" /><br>
+    Agrega una descripción <input type="text" id= "descripcion_gasto" placeholder="p. ej., comida" /></p>
+    <div id="message2" style="color: green;"></div>
+
+    <button id="mostrar_gastos">Mostrar todos los gastos</button>
+    <div id="expenses_list"></div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
